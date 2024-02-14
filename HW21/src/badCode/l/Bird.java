@@ -1,6 +1,6 @@
 package badCode.l;
 
-class Bird {
+public class Bird {
     public void fly() {
         // лететь
     }

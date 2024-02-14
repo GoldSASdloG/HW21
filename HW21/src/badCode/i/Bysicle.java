@@ -1,17 +1,10 @@
 package badCode.i;
 
-public class Car implements
+public class Bysicle implements
         Startable,
-        Stopable,
         Brakable,
-        Honkable,
-        Refuelable,
-        Acceleratable{
-
-    @Override
-    public void brake() {
-
-    }
+        Acceleratable,
+        Stopable{
 
     @Override
     public void accelerate() {
@@ -19,12 +12,7 @@ public class Car implements
     }
 
     @Override
-    public void honk() {
-
-    }
-
-    @Override
-    public void refuel() {
+    public void brake() {
 
     }
 
